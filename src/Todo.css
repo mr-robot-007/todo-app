@@ -1,0 +1,42 @@
+.todo__list {
+    text-align: center;
+    border: 4px solid orange;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.listitem {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: -10px;
+}
+@media only screen and (max-width: 450px) and (min-width:350px){
+    .todo__list{
+        width:100%;
+    }
+    .listitem{
+        margin-left: -50px;
+        /* width:100%; */
+    }
+    }
+@media screen and (max-width: 350px){
+    .listitem{
+        margin-left: -70px;
+        /* width:100%; */
+    }
+}
+
+.dlt{
+    margin-right: 40px;
+}
+
+.editme{
+    color:blue;
+}
+.editme :hover {
+    color:blue;
+}
+.dlt {
+    color: grey;
+}
+.dlt :hover {
+    color: red;
+}
