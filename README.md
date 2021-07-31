@@ -1,6 +1,12 @@
+# You can view this project live  at https://todo-app-3423e.web.app/ 
+
+# About
+It is a simple To-do web application created with React and Firebase. I made it for my personal use as I want and todo web application that I can access and manage from both phone and computer .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
