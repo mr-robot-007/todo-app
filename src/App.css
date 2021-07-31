@@ -5,14 +5,10 @@
   
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-/* @media (max-width: 450px) {
-  .App
-  } */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -20,7 +16,6 @@
 
   }
 }
-
 
 .App-header {
   background-color: #282c34;
