@@ -3,10 +3,17 @@
 # About
 It is a simple To-do web application created with React and Firebase. I made it for my personal use as I want and todo web application that I can access and manage from both phone and computer .
 
+## Technologies used
+### `React` `Firebase` 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup at your system :
+> Clone the reposity 
+>> open terminal in the cloned reposity and run `yarm install`.
+>>> to start the project use `yarn start`.
 
 ## Available Scripts
 
