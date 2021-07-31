@@ -5,7 +5,6 @@ import Todo from './Todo';
 import { db } from './firebase';
 import firebase from 'firebase';
 import { makeStyles } from '@material-ui/core/styles';
-// import DateTime from './datetime.js'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,7 +27,7 @@ function App() {
   const [input2, setInput2] = useState('');
   const classes = useStyles();
 
-  //when the app loads , we need to listen to the datbase and fetch new todos as they get added/remove
+  //when the app loads , we need to listen to the database and fetch new todos as they get added/remove
 
   useEffect(()=>{
     db.collection('todos').orderBy('timestamp','desc').onSnapshot(snapshot=>{
